@@ -51,7 +51,7 @@ public class ProductDAO extends DAO {
 
         Connection con=getConnection();
 
-        PreparedStatement st=con.prepareStatement("delete from product where name=?, price=?");
+        PreparedStatement st=con.prepareStatement("delete from product where name=? and price=?");
         st.setString(1, product.getName());
         st.setInt(2, product.getPrice());
         int line=st.executeUpdate();

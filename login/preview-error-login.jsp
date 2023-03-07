@@ -2,6 +2,7 @@
 <%@include file="../header.html" %>
 <%@include file="../shop/staffmenu.jsp" %>
 
-こんにちは、  ${staff.login}   さん。
+使用するには
+<a href="../login/login-in.jsp">ログイン</a>
 
 <%@include file="../footer.html" %>

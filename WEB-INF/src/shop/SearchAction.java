@@ -12,6 +12,12 @@ public class SearchAction extends Action {
         HttpServletRequest request, HttpServletResponse response
     ) throws Exception {
 
+        HttpSession session=request.getSession();
+
+        if (session.getAttribute("staff")==null) {
+            return "preview-error-login.jsp";
+        }
+
         String keyword=request.getParameter("keyword");
 
         ProductDAO dao=new ProductDAO();

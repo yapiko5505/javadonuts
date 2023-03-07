@@ -2,6 +2,6 @@
 <%@include file="../header.html" %>
 <%@include file="../shop/staffmenu.jsp" %>
 
-ログイン名またはパスワード名が違います。
+<p>ログイン名またはパスワード名が違います。</p>
 
 <%@include file="../footer.html" %>

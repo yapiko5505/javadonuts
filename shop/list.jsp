@@ -7,4 +7,6 @@
     ${p.id} : ${p.name} : ${p.price}<br>
 </c:forEach>
 
+<a href="../shop/staffindex.jsp">インデックスページに戻る</a>
+
 <%@include file="../footer.html" %>

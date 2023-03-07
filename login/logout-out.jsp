@@ -2,6 +2,6 @@
 <%@include file="../header.html" %>
 <%@include file="../shop/staffmenu.jsp" %>
 
-    ログアウトしました。
+    <p>ログアウトしました。</p>
    
 <%@include file="../footer.html" %>

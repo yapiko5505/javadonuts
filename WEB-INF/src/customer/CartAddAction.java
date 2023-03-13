@@ -18,7 +18,7 @@ public class CartAddAction extends Action {
 
         int id=Integer.parseInt(request.getParameter("id"));
 
-        List<Item> cart=(List<Item>)session.getAttribute("id");
+        List<Item> cart=(List<Item>)session.getAttribute("cart");
         if (cart==null) {
             cart=new ArrayList<Item>();
             session.setAttribute("cart", cart);
